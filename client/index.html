@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Content Generator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="background">
+    <div class="blob blob1"></div>
+    <div class="blob blob2"></div>
+</div>
+
+<div class="container">
+
+    <header>
+        <h1>🤖 AI Content Generator Pro</h1>
+        <p>Create blogs, emails, captions and scripts with AI.</p>
+    </header>
+
+    <section class="card">
+
+        <label>Topic</label>
+        <input
+            type="text"
+            id="topic"
+            placeholder="e.g. Benefits of Cloud Computing">
+
+        <div class="row">
+
+            <div class="field">
+                <label>Content Type</label>
+
+                <select id="contentType">
+                    <option>Blog</option>
+                    <option>Email</option>
+                    <option>Instagram Caption</option>
+                    <option>LinkedIn Post</option>
+                    <option>Story</option>
+                    <option>YouTube Script</option>
+                    <option>Product Description</option>
+                </select>
+            </div>
+
+            <div class="field">
+                <label>Tone</label>
+
+                <select id="tone">
+                    <option>Professional</option>
+                    <option>Friendly</option>
+                    <option>Creative</option>
+                    <option>Funny</option>
+                    <option>Formal</option>
+                </select>
+            </div>
+
+            <div class="field">
+                <label>Length</label>
+
+                <select id="length">
+                    <option>Short</option>
+                    <option>Medium</option>
+                    <option>Long</option>
+                </select>
+            </div>
+
+        </div>
+
+        <button id="generateBtn">
+            ✨ Generate Content
+        </button>
+
+    </section>
+
+    <section class="card output-card">
+
+        <div class="output-header">
+            <h2>Generated Content</h2>
+
+            <div class="stats">
+                <span id="wordCount">Words: 0</span>
+                <span id="charCount">Characters: 0</span>
+            </div>
+
+        </div>
+
+        <textarea
+            id="result"
+            readonly
+            placeholder="AI generated content will appear here..."></textarea>
+
+        <div class="buttons">
+
+            <button id="copyBtn">📋 Copy</button>
+
+            <button id="downloadBtn">📥 Download</button>
+
+            <button id="clearBtn">🗑 Clear</button>
+
+        </div>
+
+    </section>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
