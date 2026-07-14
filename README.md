@@ -94,7 +94,7 @@ AI-Content-Generator/
 ## Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/AI-Content-Generator.git
+git clone https://github.com/nirajsharma-bit/AI-Content-Generator.git
 
 cd AI-Content-Generator
 ```
@@ -116,7 +116,7 @@ npm install
 Create a `.env` file inside the `server` folder.
 
 ```env
-OPENROUTER_API_KEY=your_api_key
+OPENROUTER_API_KEY=openrouter_api_key
 OPENROUTER_MODEL=openai/gpt-oss-20b:free
 PORT=5000
 ```
@@ -224,31 +224,6 @@ Generated Content
 
 Display Result
 ```
-
----
-
-# 📷 Screenshots
-
-Add screenshots here:
-
-- Home Page
-- Content Generation
-- AWS Deployment
-- Docker Container
-- GitHub Repository
-
----
-
-# 📊 Future Enhancements
-
-- User Authentication
-- Content History
-- Export as PDF
-- Multiple AI Models
-- Image Generation
-- Multi-language Support
-- Dark Mode
-- AI Templates
 
 ---
 
